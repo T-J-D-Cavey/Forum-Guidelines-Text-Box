@@ -1,6 +1,6 @@
 /* Computed styles before any custom CSS: */
 
-body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.qa-div-sidebar.custom-sidebar > div > div:nth-child(1) > div, .container {    
+body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.qa-div-sidebar.custom-sidebar > div > div:nth-child(1) > div, .customHTMLContainer {    
     --borderradius-base: 4px;
     --config--main-border-base-color: #d1d6deff;
     --config--main-button-base-font-color: #1a1a1a;
@@ -259,9 +259,26 @@ body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.
 
 /* Custom styles: */
 
-body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.qa-div-sidebar.custom-sidebar > div > div:nth-child(1) > div, .container {
+.customHTMLContainer {
     border: 1px solid green;
-    background-color: yellow;
-  }
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #d3d3d3;
+  	padding: 1rem;
+}
+
+.customHTMLContainer a:hover {
+  text-decoration: underline;
+}
+
+.customHTMLContainer h3,
+.customHTMLContainer li {
+ 	padding-bottom: 0.5rem; 
+}
 
 
+/* Styles for dev purposes: */
+
+.customHTMLContainer {
+    width: 20rem;
+}

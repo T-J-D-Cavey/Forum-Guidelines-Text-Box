@@ -6,3 +6,4 @@ const htmlSidebarWidget = document.querySelector("body > main > div.full-width.T
 if (!window.location.href.includes('topic/new')) {
 	htmlSidebarWidget.style.display = 'none';
     }
+        
