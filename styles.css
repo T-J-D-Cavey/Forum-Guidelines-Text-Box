@@ -1,6 +1,6 @@
 /* Computed styles before any custom CSS: */
 
-body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.qa-div-sidebar.custom-sidebar > div > div:nth-child(1) > div {    
+body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.qa-div-sidebar.custom-sidebar > div > div:nth-child(1) > div, .container {    
     --borderradius-base: 4px;
     --config--main-border-base-color: #d1d6deff;
     --config--main-button-base-font-color: #1a1a1a;
@@ -259,9 +259,9 @@ body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.
 
 /* Custom styles: */
 
-body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.qa-div-sidebar.custom-sidebar > div > div:nth-child(1) > div {
+body > main > div.full-width.Template-content > div > div.col.col--side.Sidebar.qa-div-sidebar.custom-sidebar > div > div:nth-child(1) > div, .container {
     border: 1px solid green;
-    background-color: white;
+    background-color: yellow;
   }
 
 
