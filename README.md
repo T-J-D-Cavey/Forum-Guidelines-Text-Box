@@ -14,7 +14,7 @@ The HTML in this project includes links to relevant resources to help and guide 
 
 The CSS applied aims to match the styles of this site, and other widgets on it. 
 
-The text box has javascript applied so that it only appears when the user is on the 'create a topic' page. This is done by adding a 'display: none' style when the URL does not include 'topic/new'.
+The text box has javascript applied so that it only appears when the user is on the 'create a topic' page. This is done by giving the element a 'display: none' style, but when the URL includes 'topic/new', an ID attribute is added which has a 'display: block' style. This ID attribute overides the style attached to the class. 
 
 ## What is this project made with?
 
